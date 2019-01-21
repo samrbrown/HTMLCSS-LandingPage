@@ -49,15 +49,12 @@ section {
     border-radius: 3px;
     line-height: 1.4;
 }
-.btn,
-.btn-default,
-.btn-primary {
-    color: #ffffff;
-}
 .btn-default {
+    color: #fff;
     background-color: #faa541;
 }
 .btn-primary {
+    color: #fff;
     background-color: #364147;
 }
 /***************************************/
@@ -76,14 +73,12 @@ section {
 
 /* TYPOGRAPHY */
 
-.text-light, 
-.text-secondary {
-    font-size: 30px;
-}
 .text-light {
+    font-size: 30px;
     color: #a0a0a0;
 }
 .text-secondary {
+    font-size: 30px;
     color:#faa541;
 }
 .text-primary {

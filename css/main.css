@@ -7,3 +7,88 @@ ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+}
+
+/* FLEX UTILITY CLASSES */
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-one {
+    flex: 1;
+}
+/***************************************/
+
+/* ALIGNMENT UTILITY CLASSES */
+.align-center { 
+    align-items: center; 
+}
+.center { 
+    justify-content: center; 
+}
+.space-between { 
+    justify-content: space-between; 
+}
+/***************************************/
+
+/* BUTTON CLASSES */
+.btn {
+    cursor: pointer;
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+.btn,
+.btn-default,
+.btn-primary {
+    color: #ffffff;
+}
+.btn-default {
+    background-color: #faa541;
+}
+.btn-primary {
+    background-color: #364147;
+}
+/***************************************/
+
+/* FORM CLASSES */
+
+.form-control {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
+}
+
+/***************************************/
+
+/* TYPOGRAPHY */
+
+.text-light, 
+.text-secondary {
+    font-size: 30px;
+}
+.text-light {
+    color: #a0a0a0;
+}
+.text-secondary {
+    color:#faa541;
+}
+.text-primary {
+    font-size: 16px;
+    color: #364147;
+}
+
+/**************************************/
